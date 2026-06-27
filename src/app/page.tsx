@@ -1,3 +1,5 @@
+import { HeroSection } from "@/components/hero-section";
+import { CollectionSection } from "@/components/collection-section";
 import { PeaksSection } from "@/components/peaks-section";
 import { JacketFeatureSection } from "@/components/jacket-feature-section";
 import { OutfitGridSection } from "@/components/outfit-grid-section";
@@ -12,6 +14,9 @@ import { Footer } from "@/components/footer";
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between font-sans">
+      <HeroSection />
+      <CollectionSection />
+
       {/* First Set of Sections (Jackets) */}
       <PeaksSection />
       <JacketFeatureSection />
