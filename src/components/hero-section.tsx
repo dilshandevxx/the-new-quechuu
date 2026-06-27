@@ -7,8 +7,8 @@ export function HeroSection() {
       {/* Background Media */}
       <div className="absolute inset-0 z-0">
         <Image
-          src="https://images.unsplash.com/photo-1522199755839-a2bacb67c546?q=80&w=2072&auto=format&fit=crop"
-          alt="Hikers climbing a rocky mountain"
+          src="/images/hero-bg-custom.png"
+          alt="Hikers climbing a steep mountain slope"
           fill
           className="object-cover"
           priority
