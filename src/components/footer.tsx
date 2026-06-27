@@ -1,4 +1,4 @@
-import { ArrowRight, Facebook, Instagram, Twitter, Youtube } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 
 export function Footer() {
   return (
@@ -90,17 +90,25 @@ export function Footer() {
           </div>
 
           <div className="flex items-center gap-6 text-neutral-400">
-            <a href="#" className="transition-colors hover:text-white">
-              <Instagram className="h-5 w-5" />
+            <a href="#" className="transition-colors hover:text-white" aria-label="Instagram">
+              <svg className="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                <rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/>
+              </svg>
             </a>
-            <a href="#" className="transition-colors hover:text-white">
-              <Twitter className="h-5 w-5" />
+            <a href="#" className="transition-colors hover:text-white" aria-label="Twitter">
+              <svg className="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                <path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"/>
+              </svg>
             </a>
-            <a href="#" className="transition-colors hover:text-white">
-              <Facebook className="h-5 w-5" />
+            <a href="#" className="transition-colors hover:text-white" aria-label="Facebook">
+              <svg className="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/>
+              </svg>
             </a>
-            <a href="#" className="transition-colors hover:text-white">
-              <Youtube className="h-5 w-5" />
+            <a href="#" className="transition-colors hover:text-white" aria-label="Youtube">
+              <svg className="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                <path d="M2.5 7.1C2.5 7.1 2.4 5.4 3.1 4.7 4 3.7 5 3.7 5.5 3.6 8.5 3.4 12 3.4 12 3.4s3.5 0 6.5.2c.5.1 1.5.1 2.4 1.1.7.7.6 2.4.6 2.4S22 8.9 22 10.8v2.4c0 1.9-.5 3.7-.5 3.7-.6 2.2-2.3 2.3-3.1 2.4-3 .2-6.4.2-6.4.2s-3.5 0-6.5-.2c-.5-.1-1.5-.1-2.4-1.1-.7-.7-.6-2.4-.6-2.4S1.5 13.1 1.5 11.2V8.9C1.5 7.1 2.5 7.1 2.5 7.1z"/><path d="M9.7 15.3l6.5-3.3-6.5-3.3v6.6z"/>
+              </svg>
             </a>
           </div>
         </div>
