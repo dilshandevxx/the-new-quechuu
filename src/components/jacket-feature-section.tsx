@@ -23,7 +23,7 @@ export function JacketFeatureSection() {
             <div className="flex gap-4 rounded-[20px] bg-white/80 p-4 shadow-sm backdrop-blur-md">
               <div className="relative h-24 w-24 shrink-0 overflow-hidden rounded-[12px]">
                 <Image
-                  src="/images/card-thumbnail.jpg"
+                  src="https://images.unsplash.com/photo-1551632811-561732d1e306?q=80&w=800&auto=format&fit=crop"
                   alt="Hiker in field"
                   fill
                   className="object-cover"
@@ -58,10 +58,10 @@ export function JacketFeatureSection() {
           {/* Center Main Product Image */}
           <div className="relative z-0 h-[500px] w-full max-w-lg lg:absolute lg:left-1/2 lg:-translate-x-1/2 lg:h-[700px]">
             <Image
-              src="/images/jacket-main.png" // Use a transparent PNG for the jacket
+              src="https://images.unsplash.com/photo-1544022613-e87ca75a784a?q=80&w=800&auto=format&fit=crop" // Use a transparent PNG for the jacket
               alt="Black MH500 Jacket"
               fill
-              className="object-contain object-bottom"
+              className="object-cover rounded-[16px] object-bottom"
             />
           </div>
 

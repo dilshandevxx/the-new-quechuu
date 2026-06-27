@@ -41,7 +41,7 @@ export function CollectionSection() {
           <div className="lg:col-span-4 lg:col-start-9 lg:row-span-2">
             <div className="relative aspect-[3/4] w-full overflow-hidden rounded-[24px]">
               <Image
-                src="/images/backpack.jpg" // Replace with actual image
+                src="https://images.unsplash.com/photo-1522199755839-a2bacb67c546?q=80&w=800&auto=format&fit=crop" // Replace with actual image
                 alt="Orange hiking backpack in the field"
                 fill
                 className="object-cover"
@@ -53,7 +53,7 @@ export function CollectionSection() {
           <div className="lg:col-span-3 lg:mt-16">
             <div className="relative aspect-square w-full overflow-hidden rounded-[24px]">
               <Image
-                src="/images/boot.jpg" // Replace with actual image
+                src="https://images.unsplash.com/photo-1551632811-561732d1e306?q=80&w=800&auto=format&fit=crop" // Replace with actual image
                 alt="Hiking boot stepping in water"
                 fill
                 className="object-cover"
@@ -65,7 +65,7 @@ export function CollectionSection() {
           <div className="lg:col-span-5 lg:col-start-4 lg:mt-32">
             <div className="relative aspect-[4/3] w-full overflow-hidden rounded-[24px]">
               <Image
-                src="/images/hikers.jpg" // Replace with actual image
+                src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?q=80&w=800&auto=format&fit=crop" // Replace with actual image
                 alt="Two hikers looking at the view"
                 fill
                 className="object-cover"

@@ -9,7 +9,7 @@ export function OutfitGridSection() {
         {/* Top Left: Men's Outfit */}
         <div className="relative aspect-[4/5] w-full overflow-hidden bg-neutral-900 md:aspect-square">
           <Image
-            src="/images/mens-outfit-bg.jpg" // Background rocks
+            src="https://images.unsplash.com/photo-1465311440653-ba9b1d9b0f5b?q=80&w=800&auto=format&fit=crop" // Background rocks
             alt="Rocky background"
             fill
             className="object-cover opacity-80"
@@ -18,10 +18,10 @@ export function OutfitGridSection() {
           <div className="absolute inset-0 flex items-center justify-center">
              <div className="relative h-[80%] w-[50%]">
                 <Image
-                  src="/images/mens-outfit-cutout.png"
+                  src="https://images.unsplash.com/photo-1501555088652-0cb8bf7801a2?q=80&w=800&auto=format&fit=crop"
                   alt="Men's hiking outfit"
                   fill
-                  className="object-contain drop-shadow-[0_0_15px_rgba(255,255,255,0.8)]"
+                  className="object-cover rounded-[16px] drop-shadow-[0_0_15px_rgba(255,255,255,0.8)]"
                 />
              </div>
           </div>
@@ -51,10 +51,10 @@ export function OutfitGridSection() {
           <div className="flex w-full max-w-[280px] flex-col gap-6">
             <div className="relative aspect-square w-full rounded-[24px] bg-[#E8E6E1]">
               <Image
-                src="/images/jacket-black.png"
+                src="https://images.unsplash.com/photo-1454496522488-7a8e488e8606?q=80&w=800&auto=format&fit=crop"
                 alt="MH500 Jacket Black"
                 fill
-                className="object-contain p-8"
+                className="object-cover rounded-[16px] p-8"
               />
             </div>
             <button className="w-full rounded-full bg-[#2A2A2A] py-4 text-sm font-medium text-white transition-colors hover:bg-black">
@@ -92,10 +92,10 @@ export function OutfitGridSection() {
           <div className="flex w-full max-w-[280px] flex-col gap-6">
             <div className="relative aspect-square w-full rounded-[24px] bg-[#E8E6E1]">
               <Image
-                src="/images/jacket-beige.png"
+                src="https://images.unsplash.com/photo-1519681393784-d120267933ba?q=80&w=800&auto=format&fit=crop"
                 alt="MH500 Jacket Beige"
                 fill
-                className="object-contain p-8"
+                className="object-cover rounded-[16px] p-8"
               />
             </div>
             <button className="w-full rounded-full bg-[#2A2A2A] py-4 text-sm font-medium text-white transition-colors hover:bg-black">
@@ -125,7 +125,7 @@ export function OutfitGridSection() {
         {/* Bottom Right: Women's Outfit */}
         <div className="relative aspect-[4/5] w-full overflow-hidden bg-neutral-900 md:aspect-square">
           <Image
-            src="/images/womens-outfit-bg.jpg" // Background water
+            src="https://images.unsplash.com/photo-1520208496220-4f51e064ec0d?q=80&w=800&auto=format&fit=crop" // Background water
             alt="Water background"
             fill
             className="object-cover opacity-80"
@@ -134,10 +134,10 @@ export function OutfitGridSection() {
           <div className="absolute inset-0 flex items-center justify-center">
              <div className="relative h-[80%] w-[50%]">
                 <Image
-                  src="/images/womens-outfit-cutout.png"
+                  src="https://images.unsplash.com/photo-1551632811-561732d1e306?q=80&w=800&auto=format&fit=crop"
                   alt="Women's hiking outfit"
                   fill
-                  className="object-contain drop-shadow-[0_0_15px_rgba(255,255,255,0.8)]"
+                  className="object-cover rounded-[16px] drop-shadow-[0_0_15px_rgba(255,255,255,0.8)]"
                 />
              </div>
           </div>

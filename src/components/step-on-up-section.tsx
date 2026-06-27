@@ -6,7 +6,7 @@ export function StepOnUpSection() {
       {/* Top Hero Image */}
       <div className="relative h-[60vh] min-h-[500px] w-full lg:h-[80vh]">
         <Image
-          src="/images/step-on-up-bg.jpg" // Placeholder for step on up image
+          src="https://images.unsplash.com/photo-1551632811-561732d1e306?q=80&w=800&auto=format&fit=crop" // Placeholder for step on up image
           alt="Hiker sitting on a rock"
           fill
           className="object-cover"
@@ -41,7 +41,7 @@ export function StepOnUpSection() {
           <div className="absolute top-0 left-[35%] md:left-[40%] z-20 h-48 w-32 md:h-64 md:w-48">
             <div className="relative h-full w-full overflow-hidden rounded-[8px] shadow-lg">
               <Image
-                src="/images/hiker-fog.jpg"
+                src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?q=80&w=800&auto=format&fit=crop"
                 alt="Hiker in fog"
                 fill
                 className="object-cover"
@@ -53,7 +53,7 @@ export function StepOnUpSection() {
           <div className="absolute right-[10%] top-[25%] md:right-[15%] z-10 h-40 w-40 md:h-64 md:w-64">
             <div className="relative h-full w-full overflow-hidden rounded-[8px] shadow-xl">
               <Image
-                src="/images/hiker-walking-away.jpg"
+                src="https://images.unsplash.com/photo-1454496522488-7a8e488e8606?q=80&w=800&auto=format&fit=crop"
                 alt="Hiker walking away"
                 fill
                 className="object-cover"
@@ -65,7 +65,7 @@ export function StepOnUpSection() {
           <div className="absolute bottom-0 left-[10%] md:left-[15%] z-30 h-40 w-56 md:h-56 md:w-80 lg:h-64 lg:w-96">
             <div className="relative h-full w-full overflow-hidden rounded-[16px] shadow-md border-4 border-white/50">
               <Image
-                src="/images/shoe-water.jpg"
+                src="https://images.unsplash.com/photo-1519681393784-d120267933ba?q=80&w=800&auto=format&fit=crop"
                 alt="Shoe in water"
                 fill
                 className="object-cover"

@@ -6,7 +6,7 @@ export function OutdoorSpiritSection() {
       {/* Top Hero Image */}
       <div className="relative h-[60vh] min-h-[500px] w-full lg:h-[80vh]">
         <Image
-          src="/images/outdoor-spirit-bg.jpg" // Placeholder for outdoor spirit image
+          src="https://images.unsplash.com/photo-1454496522488-7a8e488e8606?q=80&w=2000&auto=format&fit=crop" // Placeholder for outdoor spirit image
           alt="Hiker walking up rocks in fog"
           fill
           className="object-cover"
@@ -41,7 +41,7 @@ export function OutdoorSpiritSection() {
           <div className="absolute top-0 left-[35%] md:left-[40%] z-20 h-48 w-32 md:h-64 md:w-48">
             <div className="relative h-full w-full overflow-hidden rounded-[8px] shadow-lg">
               <Image
-                src="/images/backpack-flowers.jpg"
+                src="https://images.unsplash.com/photo-1539185966-200922896da3?q=80&w=800&auto=format&fit=crop"
                 alt="Backpack with flowers"
                 fill
                 className="object-cover"
@@ -53,7 +53,7 @@ export function OutdoorSpiritSection() {
           <div className="absolute right-[10%] top-[25%] md:right-[15%] z-10 h-40 w-40 md:h-64 md:w-64">
             <div className="relative h-full w-full overflow-hidden rounded-[8px] shadow-xl">
               <Image
-                src="/images/backpack-rock.jpg"
+                src="https://images.unsplash.com/photo-1622240954932-9ce280599bb8?q=80&w=800&auto=format&fit=crop"
                 alt="Backpack on rock"
                 fill
                 className="object-cover"
@@ -65,7 +65,7 @@ export function OutdoorSpiritSection() {
           <div className="absolute bottom-0 left-[10%] md:left-[15%] z-30 h-40 w-56 md:h-56 md:w-80 lg:h-64 lg:w-96">
             <div className="relative h-full w-full overflow-hidden rounded-[16px] shadow-md border-4 border-[#FAF9F6]">
               <Image
-                src="/images/hikers-walking-away-landscape.jpg"
+                src="https://images.unsplash.com/photo-1501555088652-0cb8bf7801a2?q=80&w=1200&auto=format&fit=crop"
                 alt="Hikers walking away"
                 fill
                 className="object-cover"

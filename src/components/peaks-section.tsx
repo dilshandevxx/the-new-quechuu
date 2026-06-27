@@ -6,7 +6,7 @@ export function PeaksSection() {
       {/* Top Hero Image */}
       <div className="relative h-[60vh] min-h-[500px] w-full lg:h-[80vh]">
         <Image
-          src="/images/peaks-bg.jpg" // Placeholder for peaks image
+          src="https://images.unsplash.com/photo-1544022613-e87ca75a784a?q=80&w=800&auto=format&fit=crop" // Placeholder for peaks image
           alt="Hikers on a mountain peak"
           fill
           className="object-cover"
@@ -42,7 +42,7 @@ export function PeaksSection() {
           <div className="col-span-6 md:col-span-4 lg:col-span-3 lg:col-start-2">
             <div className="relative aspect-[3/4] w-full overflow-hidden rounded-[16px] shadow-lg">
               <Image
-                src="/images/hiker-portrait.jpg"
+                src="https://images.unsplash.com/photo-1465311440653-ba9b1d9b0f5b?q=80&w=800&auto=format&fit=crop"
                 alt="Hiker portrait"
                 fill
                 className="object-cover"
@@ -55,7 +55,7 @@ export function PeaksSection() {
             <div className="absolute -top-16 left-1/4 z-20 h-40 w-32 md:-top-32 md:left-1/3 md:h-64 md:w-56 lg:-top-48 lg:left-1/4 lg:h-72 lg:w-64">
               <div className="relative h-full w-full overflow-hidden rounded-[12px] shadow-xl">
                 <Image
-                  src="/images/jacket-floating.jpg"
+                  src="https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?q=80&w=800&auto=format&fit=crop"
                   alt="Floating jacket"
                   fill
                   className="object-cover"
@@ -67,7 +67,7 @@ export function PeaksSection() {
             <div className="relative z-10 ml-8 mt-32 h-48 w-32 md:mt-16 md:h-64 md:w-48">
               <div className="relative h-full w-full overflow-hidden rounded-[12px] shadow-lg">
                 <Image
-                  src="/images/hiker-small.jpg"
+                  src="https://images.unsplash.com/photo-1555529733-0e670560f7e1?q=80&w=800&auto=format&fit=crop"
                   alt="Hiker small portrait"
                   fill
                   className="object-cover"
@@ -79,7 +79,7 @@ export function PeaksSection() {
             <div className="absolute -bottom-16 right-0 z-0 h-40 w-56 md:-right-8 md:bottom-8 md:h-56 md:w-80 lg:-right-16 lg:bottom-0 lg:h-64 lg:w-96">
               <div className="relative h-full w-full overflow-hidden rounded-[16px] shadow-md">
                 <Image
-                  src="/images/hikers-walking.jpg"
+                  src="https://images.unsplash.com/photo-1522199755839-a2bacb67c546?q=80&w=800&auto=format&fit=crop"
                   alt="Two hikers walking"
                   fill
                   className="object-cover"

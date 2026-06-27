@@ -9,7 +9,7 @@ export function BackpackGridSection() {
         {/* Top Left: Unisex Outfit (Backpack) */}
         <div className="relative aspect-[4/5] w-full overflow-hidden bg-[#242328] md:aspect-square">
           <Image
-            src="/images/backpack-outfit-bg.jpg" // Background dark rocks
+            src="https://images.unsplash.com/photo-1465311440653-ba9b1d9b0f5b?q=80&w=800&auto=format&fit=crop" // Background dark rocks
             alt="Dark rock background"
             fill
             className="object-cover opacity-80"
@@ -18,7 +18,7 @@ export function BackpackGridSection() {
           <div className="absolute inset-0 flex items-center justify-center pt-24">
              <div className="relative h-[95%] w-[60%]">
                 <Image
-                  src="/images/backpack-outfit-cutout.png"
+                  src="https://images.unsplash.com/photo-1539185966-200922896da3?q=80&w=800&auto=format&fit=crop"
                   alt="Hiker with red backpack"
                   fill
                   className="object-cover object-top drop-shadow-[0_0_15px_rgba(255,255,255,1)]"
@@ -40,10 +40,10 @@ export function BackpackGridSection() {
           <div className="flex w-full max-w-[280px] flex-col gap-6 mt-12">
             <div className="relative aspect-[4/5] w-full rounded-[24px] bg-[#E8E6E1]">
               <Image
-                src="/images/backpack-red.png"
+                src="https://images.unsplash.com/photo-1555529733-0e670560f7e1?q=80&w=800&auto=format&fit=crop"
                 alt="MH500 Backpack 25L Red"
                 fill
-                className="object-contain p-4 hover:scale-110 transition-transform duration-500"
+                className="object-cover rounded-[16px] p-4 hover:scale-110 transition-transform duration-500"
               />
             </div>
             {/* "Buy now" button assumed from previous designs */}

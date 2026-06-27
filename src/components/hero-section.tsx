@@ -7,7 +7,7 @@ export function HeroSection() {
       {/* Background Media */}
       <div className="absolute inset-0 z-0">
         <Image
-          src="/images/hero-bg.jpg" // Replace with your actual hero image
+          src="https://images.unsplash.com/photo-1522199755839-a2bacb67c546?q=80&w=2072&auto=format&fit=crop"
           alt="Hikers climbing a rocky mountain"
           fill
           className="object-cover"
@@ -52,7 +52,7 @@ export function HeroSection() {
           {/* Thumbnail */}
           <div className="relative h-20 w-32 overflow-hidden rounded-[16px]">
             <Image
-              src="/images/video-thumb.jpg" // Replace with thumbnail
+              src="https://images.unsplash.com/photo-1551632811-561732d1e306?q=80&w=2070&auto=format&fit=crop"
               alt="Video preview"
               fill
               className="object-cover transition-transform duration-700 group-hover:scale-110"

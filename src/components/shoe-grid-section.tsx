@@ -9,7 +9,7 @@ export function ShoeGridSection() {
         {/* Top Left: Men's Outfit (Shoes) */}
         <div className="relative aspect-[4/5] w-full overflow-hidden bg-[#2C2E25] md:aspect-square">
           <Image
-            src="/images/mens-shoe-outfit-bg.jpg" // Background moss/rocks
+            src="https://images.unsplash.com/photo-1465311440653-ba9b1d9b0f5b?q=80&w=800&auto=format&fit=crop" // Background moss/rocks
             alt="Rocky background"
             fill
             className="object-cover opacity-60"
@@ -18,10 +18,10 @@ export function ShoeGridSection() {
           <div className="absolute inset-0 flex items-center justify-center pt-24">
              <div className="relative h-[90%] w-[50%]">
                 <Image
-                  src="/images/mens-shoe-cutout.png"
+                  src="https://images.unsplash.com/photo-1501555088652-0cb8bf7801a2?q=80&w=800&auto=format&fit=crop"
                   alt="Men's hiking trousers and shoes"
                   fill
-                  className="object-contain drop-shadow-[0_0_15px_rgba(255,255,255,1)]"
+                  className="object-cover rounded-[16px] drop-shadow-[0_0_15px_rgba(255,255,255,1)]"
                 />
              </div>
           </div>
@@ -39,10 +39,10 @@ export function ShoeGridSection() {
           <div className="flex w-full max-w-[280px] flex-col gap-6">
             <div className="relative aspect-square w-full rounded-[24px] bg-[#E8E6E1]">
               <Image
-                src="/images/shoe-khaki.png"
+                src="https://images.unsplash.com/photo-1515248107779-7a5413346d1b?q=80&w=800&auto=format&fit=crop"
                 alt="MH500 Light Khaki"
                 fill
-                className="object-contain p-6 -rotate-12 hover:rotate-0 transition-transform duration-500"
+                className="object-cover rounded-[16px] p-6 -rotate-12 hover:rotate-0 transition-transform duration-500"
               />
             </div>
             <button className="w-full rounded-full bg-[#2A2A2A] py-4 text-sm font-medium text-white transition-colors hover:bg-black">
@@ -77,10 +77,10 @@ export function ShoeGridSection() {
           <div className="flex w-full max-w-[280px] flex-col gap-6">
             <div className="relative aspect-square w-full rounded-[24px] bg-[#E8E6E1]">
               <Image
-                src="/images/shoe-purple.png"
+                src="https://images.unsplash.com/photo-1626245367123-5e92618fc817?q=80&w=800&auto=format&fit=crop"
                 alt="MH500 Light Purple"
                 fill
-                className="object-contain p-6 -rotate-12 hover:rotate-0 transition-transform duration-500"
+                className="object-cover rounded-[16px] p-6 -rotate-12 hover:rotate-0 transition-transform duration-500"
               />
             </div>
             <button className="w-full rounded-full bg-[#2A2A2A] py-4 text-sm font-medium text-white transition-colors hover:bg-black">
@@ -109,7 +109,7 @@ export function ShoeGridSection() {
         {/* Bottom Right: Women's Outfit (Shoes) */}
         <div className="relative aspect-[4/5] w-full overflow-hidden bg-[#292A2C] md:aspect-square">
           <Image
-            src="/images/womens-shoe-outfit-bg.jpg" // Background marble/rocks
+            src="https://images.unsplash.com/photo-1520208496220-4f51e064ec0d?q=80&w=800&auto=format&fit=crop" // Background marble/rocks
             alt="Dark marble background"
             fill
             className="object-cover opacity-60"
@@ -118,10 +118,10 @@ export function ShoeGridSection() {
           <div className="absolute inset-0 flex items-center justify-center pt-24">
              <div className="relative h-[90%] w-[50%]">
                 <Image
-                  src="/images/womens-shoe-cutout.png"
+                  src="https://images.unsplash.com/photo-1551632811-561732d1e306?q=80&w=800&auto=format&fit=crop"
                   alt="Women's hiking trousers and shoes"
                   fill
-                  className="object-contain drop-shadow-[0_0_15px_rgba(255,255,255,1)]"
+                  className="object-cover rounded-[16px] drop-shadow-[0_0_15px_rgba(255,255,255,1)]"
                 />
              </div>
           </div>

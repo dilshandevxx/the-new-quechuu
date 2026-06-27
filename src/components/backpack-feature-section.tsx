@@ -23,7 +23,7 @@ export function BackpackFeatureSection() {
             <div className="flex gap-4 rounded-[20px] bg-white/80 p-4 shadow-sm backdrop-blur-md">
               <div className="relative h-24 w-24 shrink-0 overflow-hidden rounded-[12px]">
                 <Image
-                  src="/images/card-thumbnail-capacity.jpg"
+                  src="https://images.unsplash.com/photo-1551632811-561732d1e306?q=80&w=800&auto=format&fit=crop"
                   alt="Hikers looking at view"
                   fill
                   className="object-cover"
@@ -58,10 +58,10 @@ export function BackpackFeatureSection() {
           {/* Center Main Product Image */}
           <div className="relative z-0 h-[500px] w-full max-w-lg lg:absolute lg:left-1/2 lg:-translate-x-1/2 lg:h-[700px]">
             <Image
-              src="/images/backpack-main.png" // Use a transparent PNG for the backpack
+              src="https://images.unsplash.com/photo-1555529733-0e670560f7e1?q=80&w=800&auto=format&fit=crop" // Use a transparent PNG for the backpack
               alt="MH500 Backpack Red"
               fill
-              className="object-contain hover:scale-105 transition-transform duration-700"
+              className="object-cover rounded-[16px] hover:scale-105 transition-transform duration-700"
             />
           </div>
 

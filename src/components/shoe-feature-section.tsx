@@ -23,7 +23,7 @@ export function ShoeFeatureSection() {
             <div className="flex gap-4 rounded-[20px] bg-white/80 p-4 shadow-sm backdrop-blur-md">
               <div className="relative h-24 w-24 shrink-0 overflow-hidden rounded-[12px]">
                 <Image
-                  src="/images/card-thumbnail-grip.jpg"
+                  src="https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?q=80&w=800&auto=format&fit=crop"
                   alt="Shoe grip on rock"
                   fill
                   className="object-cover"
@@ -59,10 +59,10 @@ export function ShoeFeatureSection() {
           {/* Center Main Product Image */}
           <div className="relative z-0 h-[400px] w-full max-w-xl lg:absolute lg:left-1/2 lg:-translate-x-1/2 lg:h-[600px]">
             <Image
-              src="/images/shoe-main.png" // Use a transparent PNG for the shoe
+              src="https://images.unsplash.com/photo-1626245367123-5e92618fc817?q=80&w=800&auto=format&fit=crop" // Use a transparent PNG for the shoe
               alt="MH500 Light Shoe"
               fill
-              className="object-contain -rotate-[15deg] hover:rotate-0 transition-transform duration-700"
+              className="object-cover rounded-[16px] -rotate-[15deg] hover:rotate-0 transition-transform duration-700"
             />
           </div>
 
