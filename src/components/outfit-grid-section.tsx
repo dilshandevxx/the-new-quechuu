@@ -18,7 +18,7 @@ export function OutfitGridSection() {
           <div className="absolute inset-0 flex items-center justify-center">
              <div className="relative h-[80%] w-[50%]">
                 <Image
-                  src="https://images.unsplash.com/photo-1501555088652-0cb8bf7801a2?q=80&w=800&auto=format&fit=crop"
+                  src="https://images.unsplash.com/photo-1544022613-e87ca75a784a?q=80&w=800&auto=format&fit=crop"
                   alt="Men's hiking outfit"
                   fill
                   className="object-cover rounded-[16px] drop-shadow-[0_0_15px_rgba(255,255,255,0.8)]"
@@ -125,7 +125,7 @@ export function OutfitGridSection() {
         {/* Bottom Right: Women's Outfit */}
         <div className="relative aspect-[4/5] w-full overflow-hidden bg-neutral-900 md:aspect-square">
           <Image
-            src="https://images.unsplash.com/photo-1520208496220-4f51e064ec0d?q=80&w=800&auto=format&fit=crop" // Background water
+            src="https://images.unsplash.com/photo-1519681393784-d120267933ba?q=80&w=800&auto=format&fit=crop" // Background water
             alt="Water background"
             fill
             className="object-cover opacity-80"

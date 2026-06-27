@@ -59,7 +59,7 @@ export function ShoeFeatureSection() {
           {/* Center Main Product Image */}
           <div className="relative z-0 h-[400px] w-full max-w-xl lg:absolute lg:left-1/2 lg:-translate-x-1/2 lg:h-[600px]">
             <Image
-              src="https://images.unsplash.com/photo-1626245367123-5e92618fc817?q=80&w=800&auto=format&fit=crop" // Use a transparent PNG for the shoe
+              src="https://images.unsplash.com/photo-1465311440653-ba9b1d9b0f5b?q=80&w=800&auto=format&fit=crop" // Use a transparent PNG for the shoe
               alt="MH500 Light Shoe"
               fill
               className="object-cover rounded-[16px] -rotate-[15deg] hover:rotate-0 transition-transform duration-700"

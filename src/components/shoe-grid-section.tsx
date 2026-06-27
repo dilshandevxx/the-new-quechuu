@@ -18,7 +18,7 @@ export function ShoeGridSection() {
           <div className="absolute inset-0 flex items-center justify-center pt-24">
              <div className="relative h-[90%] w-[50%]">
                 <Image
-                  src="https://images.unsplash.com/photo-1501555088652-0cb8bf7801a2?q=80&w=800&auto=format&fit=crop"
+                  src="https://images.unsplash.com/photo-1555529733-0e670560f7e1?q=80&w=800&auto=format&fit=crop"
                   alt="Men's hiking trousers and shoes"
                   fill
                   className="object-cover rounded-[16px] drop-shadow-[0_0_15px_rgba(255,255,255,1)]"
@@ -39,7 +39,7 @@ export function ShoeGridSection() {
           <div className="flex w-full max-w-[280px] flex-col gap-6">
             <div className="relative aspect-square w-full rounded-[24px] bg-[#E8E6E1]">
               <Image
-                src="https://images.unsplash.com/photo-1515248107779-7a5413346d1b?q=80&w=800&auto=format&fit=crop"
+                src="https://images.unsplash.com/photo-1522199755839-a2bacb67c546?q=80&w=800&auto=format&fit=crop"
                 alt="MH500 Light Khaki"
                 fill
                 className="object-cover rounded-[16px] p-6 -rotate-12 hover:rotate-0 transition-transform duration-500"
@@ -77,7 +77,7 @@ export function ShoeGridSection() {
           <div className="flex w-full max-w-[280px] flex-col gap-6">
             <div className="relative aspect-square w-full rounded-[24px] bg-[#E8E6E1]">
               <Image
-                src="https://images.unsplash.com/photo-1626245367123-5e92618fc817?q=80&w=800&auto=format&fit=crop"
+                src="https://images.unsplash.com/photo-1551632811-561732d1e306?q=80&w=800&auto=format&fit=crop"
                 alt="MH500 Light Purple"
                 fill
                 className="object-cover rounded-[16px] p-6 -rotate-12 hover:rotate-0 transition-transform duration-500"
@@ -109,7 +109,7 @@ export function ShoeGridSection() {
         {/* Bottom Right: Women's Outfit (Shoes) */}
         <div className="relative aspect-[4/5] w-full overflow-hidden bg-[#292A2C] md:aspect-square">
           <Image
-            src="https://images.unsplash.com/photo-1520208496220-4f51e064ec0d?q=80&w=800&auto=format&fit=crop" // Background marble/rocks
+            src="https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?q=80&w=800&auto=format&fit=crop" // Background marble/rocks
             alt="Dark marble background"
             fill
             className="object-cover opacity-60"

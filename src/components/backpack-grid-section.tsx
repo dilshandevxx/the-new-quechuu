@@ -18,7 +18,7 @@ export function BackpackGridSection() {
           <div className="absolute inset-0 flex items-center justify-center pt-24">
              <div className="relative h-[95%] w-[60%]">
                 <Image
-                  src="https://images.unsplash.com/photo-1539185966-200922896da3?q=80&w=800&auto=format&fit=crop"
+                  src="https://images.unsplash.com/photo-1522199755839-a2bacb67c546?q=80&w=800&auto=format&fit=crop"
                   alt="Hiker with red backpack"
                   fill
                   className="object-cover object-top drop-shadow-[0_0_15px_rgba(255,255,255,1)]"
